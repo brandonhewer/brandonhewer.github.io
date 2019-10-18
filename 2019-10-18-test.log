@@ -1,0 +1,376 @@
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=dvilualatex 2019.10.18)  18 OCT 2019 20:58
+ restricted system commands enabled.
+**\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx"\HCode\def\HCo
+de"##1"{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.
+{\g@addto@macro\@documentclasshook{\RequirePackage[#1,html]{tex4ht}}\let\HCode\
+documentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname
+ tex4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{
+\HCode}{\documentstyle[tex4ht]}}}\makeatother\HCode xhtml,svg,charset=utf-8,htm
+l5.a.b.c.\input "\detokenize{./_posts-tex/test.tex}"
+[\directlua]:1: module 'luaotfload-main' not found:
+	no field package.preload['luaotfload-main']
+	[kpse lua searcher] file not found: 'luaotfload-main'
+	[kpse C searcher] file not found: 'luaotfload-main'
+Error in luaotfload: reverting to OT1
+(./_posts-tex/test.tex
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 54
+.
+LaTeX Font Info:    No file OT1lmr.fd. on input line 54.
+
+
+LaTeX Font Warning: Font shape `OT1/lmr/m/n' undefined
+(Font)              using `OT1/cmr/m/n' instead on input line 54.
+
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/tex4ht.sty
+version 2019-03-18-15:24
+Package: tex4ht 
+--------------------------------------
+--- Note --- for _ at preamble, use the command line option `early_'
+--------------------------------------
+--------------------------------------
+--- Note --- for ^ at preamble, use the command line option `early^'
+--------------------------------------
+\tmp:toks=\toks14
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/tex4ht.4ht
+version 2018-12-30-09:29
+--------------------------------------
+--- Note --- for additional information, use the command line option `info'
+--------------------------------------
+
+::::::::::::::::::::::::::::::::::::::::::
+ TeX4ht info is available in the log file 
+::::::::::::::::::::::::::::::::::::::::::
+) (/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/tex4ht.sty
+version 2019-03-18-15:24
+
+--- needs --- tex4ht 2019-10-18-test ---
+\tmp:cnt=\count88
+
+\openout15 = 2019-10-18-test.tmp
+(./2019-10-18-test.tmp)
+\tmp:dim=\skip43
+
+l.1444 --- TeX4ht warning --- No file 2019-10-18-test.xref ---
+\:refout=\write3
+
+\openout3 = 2019-10-18-test.xref
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-10-16-14:57
+--------------------------------------
+--- Note --- to remove the <?xml version=...?> processing instruction use the co
+mmand line option `no-VERSION'
+--------------------------------------
+--------------------------------------
+--- Note --- to remove the DOCTYPE declaration use the command line option `no-D
+OCTYPE'
+--------------------------------------
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2019-09-23-14:26
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/svg-option.4ht
+version 2018-12-30-09:33
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2019-03-15-15:44
+)
+--------------------------------------
+--- Note --- for marking of the base font, use the command line option `fonts+'
+--------------------------------------
+--------------------------------------
+--- Note --- for non active _, use the command line option `no_'
+--------------------------------------
+--------------------------------------
+--- Note --- for _ of catcode 13, use the command line option `_13'
+--------------------------------------
+--------------------------------------
+--- Note --- for non active ^, use the command line option `no^'
+--------------------------------------
+--------------------------------------
+--- Note --- for ^ of catcode 13, use the command line option `^13'
+--------------------------------------
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-10-16-14:57
+--------------------------------------
+--- Note --- to ignore CSS font decoration, use the `NoFonts' command line optio
+n
+--------------------------------------
+--------------------------------------
+--- Note --- for jpg bitmaps of pictures, use the `jpg' command line option. (Ch
+aracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switche
+s of tex4ht.c) 
+--------------------------------------
+--------------------------------------
+--- Note --- for gif bitmaps of pictures, use the `gif' command line option. (Ch
+aracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switche
+s of tex4ht.c) 
+--------------------------------------
+--------------------------------------
+--- Note --- for content and toc in 2 frames, use the command line option `frame
+s'
+--------------------------------------
+--------------------------------------
+--- Note --- for content, toc, and footnotes in 3 frames, use the command line o
+ption `frames-fn'
+--------------------------------------
+--------------------------------------
+--- Note --- for file extension name xht, use the command line option `xht'
+--------------------------------------
+TeX4ht package options: xhtml,svg,charset=utf-8,html5,html
+--------------------------------------
+--- Note --- To print a timestamp, use the command line option timestamp
+--------------------------------------
+--------------------------------------
+--- Note --- to ignore CSS code, use the command line option `-css
+--------------------------------------
+--------------------------------------
+--- Note --- for inline CSS code, use the command line option `css-in'
+--------------------------------------
+--------------------------------------
+--- Note --- for pop ups on mouse over, use the command line option `mouseover'
+--------------------------------------
+--------------------------------------
+--- Note --- for addressing images in a subdirectory, use the command line optio
+n `imgdir:.../'
+--------------------------------------
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2019-09-23-14:26
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/svg-option.4ht
+version 2018-12-30-09:33
+--------------------------------------
+--- Note --- for external SVG files try the command line options `svg-obj' and '
+svg-'
+--------------------------------------
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2019-03-15-15:44
+--------------------------------------
+--- Note --- To print a timestamp, use the command line option timestamp
+--------------------------------------
+)
+\:tokwrite=\toks15
+\:tokpage=\toks16
+--------------------------------------
+--- Note --- for back links to toc, use the command line option `sections+'
+--------------------------------------
+--------------------------------------
+--- Note --- for linear crosslinks of pages, use the command line option `next'
+--------------------------------------
+\:tocout=\write4
+
+\openout4 = 2019-10-18-test.4tc
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/latex.4ht
+version 2019-08-26-14:22
+LaTeX Info: Redefining \_ on input line 168.
+--------------------------------------
+--- Note --- for links into captions, instead of float heads, use the command li
+ne option `refcaption'
+--------------------------------------
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-10-16-14:57
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2019-09-23-14:26
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/svg-option.4ht
+version 2018-12-30-09:33
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2019-03-15-15:44
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-10-16-14:57
+--------------------------------------
+--- Note --- For mini tocs immediately aftter the header use the command line op
+tion `minitoc<'
+--------------------------------------
+--------------------------------------
+--- Note --- for enumerated list elements with valued data, use the command line
+ option `enumerate+'
+--------------------------------------
+--------------------------------------
+--- Note --- for enumerated list elements li's with value attributes, use the co
+mmand line option `enumerate-'
+--------------------------------------
+--------------------------------------
+--- Note --- for CSS2 code, use the command line option `css2'
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial tabular, use the command line option `pic-tabular'
+--------------------------------------
+--------------------------------------
+--- Note --- for bitmap fbox'es, use the command line option `pic-fbox'
+--------------------------------------
+--------------------------------------
+--- Note --- for bitmap framebox'es, use the command line option `pic-framebox'
+--------------------------------------
+--------------------------------------
+--- Note --- for inline footnotes use command line option `fn-in'
+--------------------------------------
+--------------------------------------
+--- Note --- for tracing of latex font commands, use the command line option `fo
+nts'
+--------------------------------------
+--------------------------------------
+--- Note --- for width specifications of tabular p entries, use the `p-width' co
+mmand line option or a configuration similar to \Configure{HColWidth}{\HCode{ st
+yle="width:\HColWidth"}}
+--------------------------------------
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2019-09-23-14:26
+--------------------------------------
+--- Note --- for pictorial eqnarray, use the command line option `pic-eqnarray'
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial array, use the command line option `pic-array'
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial $...$ environments, use the command line option `pic-
+m' (not recommended!!)
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial $...$ and $$...$$ environments with latex alt, use th
+e command line option `pic-m+' (not safe!!)
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial array, use the command line option `pic-array'
+--------------------------------------
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/svg-option.4ht
+version 2018-12-30-09:33
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2019-03-15-15:44
+))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/fontmath.4ht
+version 2018-11-06-15:55
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-10-16-14:57
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2019-09-23-14:26
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/svg-option.4ht
+version 2018-12-30-09:33
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2019-03-15-15:44
+))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/article.4ht
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-10-16-14:57
+--------------------------------------
+--- Note --- for automatic sectioning pagination, use the command line option `1
+', `2', `3', '4', '5', '6', or '7'
+--------------------------------------
+--------------------------------------
+--- Note --- for files named derived from section titles, use the command line o
+ption `sec-filename'
+--------------------------------------
+--------------------------------------
+--- Note --- for i-columns index, use the command line option `index=i' (e.g., i
+ndex=2)
+--------------------------------------
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2019-09-23-14:26
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/svg-option.4ht
+version 2018-12-30-09:33
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2019-03-15-15:44
+))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2019-10-16-14:57
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-06-06-15:03
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2019-09-23-14:26
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/svg-option.4ht
+version 2018-12-30-09:33
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2019-03-15-15:44
+))
+No file 2019-10-18-test.aux.
+
+\openout1 = 2019-10-18-test.aux
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+--- file 2019-10-18-test.css ---
+[1
+
+] (./2019-10-18-test.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+)
+
+Here is how much of LuaTeX's memory you used:
+ 3885 strings out of 493859
+ 100000,266212 words of node,token memory allocated
+ 354 words of node memory still in use:
+   2 hlist, 1 vlist, 1 rule, 2 glue, 47 glue_spec, 1 write nodes
+   avail lists: 2:13,3:171,4:3,5:29,6:3,7:27,9:13,10:2
+ 8409 multiletter control sequences out of 65536+600000
+ 16 fonts using 674439 bytes
+ 27i,4n,26p,828b,158s stack positions out of 5000i,500n,10000p,200000b,100000s
+Output written on 2019-10-18-test.dvi (1 page, 10104 bytes).
