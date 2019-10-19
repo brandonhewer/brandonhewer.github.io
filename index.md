@@ -4,5 +4,3 @@
 
 layout: home
 ---
-
-{% include navigation.html %}
