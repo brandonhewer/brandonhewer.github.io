@@ -59,9 +59,7 @@ td.td01{ padding-left:0pt; padding-right:5pt; }
 td.td10{ padding-left:5pt; padding-right:0pt; }
 td.td11{ padding-left:5pt; padding-right:5pt; }
 table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
-.hline hr, .cline hr{ height : 0px; margin:0px; }
-.hline td, .cline td{ padding: 0; }
-.hline hr, .cline hr{border:none;border-top:1px solid black;}
+.hline hr, .cline hr{ height : 1px; margin:0px; }
 .tabbing-right {text-align:right;}
 span.TEX {letter-spacing: -0.125em; }
 span.TEX span.E{ position:relative;top:0.5ex;left:-0.0417em;}
@@ -117,5 +115,9 @@ figure.figure img {text-align:center;}
 figure.figure > p {text-align:center;}
 figcaption.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:center;}
 figcaption.caption span.id{font-weight: bold; white-space: nowrap; }
+.rotatebox{display: inline-block;}
+.figure img.graphics {margin-left:10%;}
+ .foreignobject {line-height:100%; font-size:120%; font-family:STIXgeneral,Times,Symbol,cmr10,CMSY10,CMEX10;padding:0; margin:0; text-align:center; } 
+math {vertical-align:baseline; line-height:100%; font-size:100%; font-family:STIXGeneral,Times,Symbol, cmr10,cmsy10,cmex10,cmmi10; font-style: normal; margin:0; padding:0; }
 /* end css.sty */
 
