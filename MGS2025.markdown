@@ -1,0 +1,37 @@
+---
+title: MGS 2025 - Refinement types in Haskell
+---
+
+This is the course page for the Midlands Graduate School 2025 (MGS 2025) course on *Refinement types in Haskell*.
+
+For more information about MGS 2025, see the [official website](https://www.andreipopescu.uk/MGS_Sheffield/MGS2025.html).
+
+## Course Summary
+
+Refinement types extend a type system with a notion of decidable subtyping, and support the specification and compile-time verification of a broad range of program properties. Their primary aim is to be a 'lightweight extension' of an existing type system, providing a means to reason about program correctness while relying on solvers to automatically verify any proof obligations. Refinement types have been implemented in a variety of languages, including ML (Freeman and Pfenning 1991), Haskell (Vazou et el. 2014), OCaml (Kawaguchi et al.), C (Rondon et al. 2010) and Typescript (Vekris et al. 2016).
+
+This course provides an introduction to refinement types in Liquid Haskell, with a focus on the predicate-based approach. We will examine the application of refinement types to general-purpose functional programming, while introducing key theoretical concepts. The course will also cover some advanced techniques, including termination metrics and higher-order reasoning via abstract refinements. In the final lecture, we will introduce quotient types within the context of a refinement type system.
+
+The course is structured into four lectures:
+
+1. Introduction to refinement types
+2. Refinement logic, datatypes, and subtyping
+3. Measures, termination, and abstract refinements
+4. Quotient types
+
+## Course Resources
+
+To implement the examples shown on the course, students should install [Liquid Haskell](https://ucsd-progsys.github.io/liquidhaskell/).
+
+Additional course resources will be made available closer to the date.
+
+## References
+Ming Kawaguchi, Patrick M Rondon, and Ranjit Jhala. 2010. Dsolve: Safety Verification via Liquid Types. In *Proceedings of the International Conference on Computer Aided Verification*.
+
+Niki Vazou, Eric L Seidel, and Ranjit Jhala, Dimitrios Vytiniotis, and Simon Peyton-Jones. 2014. Refinement Types for Haskell. In *Proceedings of the International Conference on Functional Programming*.
+
+Panagiotis Vekris, Benjamin Cosman, and Ranjit Jhala. 2016. Refinement types for TypeScript. In *Proceedings of the Conference on Programming Language Design and Implementation*.
+
+Patrick M Rondon, Ming Kawaguchi, and Ranjit Jhala. 2010. Low-level liquid types. In *ACM Sigplan Notices*.
+
+Tim Freeman and Frank Pfenning. 1991. Refinement Types for ML. In *Proceedings of the Conference on Programming Language Design and Implementation*.
