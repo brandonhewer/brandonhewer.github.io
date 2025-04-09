@@ -14,8 +14,8 @@ This course provides an introduction to refinement types in Liquid Haskell, with
 
 The course is structured into four lectures:
 
-1. Introduction to refinement types ([pdf](/Lecture1.pdf))
-2. Refinement logic, datatypes, and subtyping
+1. Introduction to refinement types ([pdf](/pdf/Lecture1.pdf))
+2. Refinement logic, datatypes, and subtyping ([pdf](/pdf/Lecture2.pdf))
 3. Measures, termination, and abstract refinements
 4. Quotient types
 
@@ -24,6 +24,10 @@ The course is structured into four lectures:
 To implement the examples shown on the course, students should install [Liquid Haskell](https://ucsd-progsys.github.io/liquidhaskell/).
 
 Additional course resources will be made available closer to the date.
+
+## Exercise Sheets
+
+[Exercise Sheet 1](/pdf/Exercise1.pdf) (Vectors, Matrices, Binary Search Trees)
 
 ## References
 Ming Kawaguchi, Patrick M Rondon, and Ranjit Jhala. 2010. Dsolve: Safety Verification via Liquid Types. In *Proceedings of the International Conference on Computer Aided Verification*.
