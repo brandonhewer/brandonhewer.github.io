@@ -21,6 +21,10 @@ main = hakyllWith config $ do
         route   idRoute
         compile compressCssCompiler
 
+    match "pdf/*" $ do
+      route idRoute
+      compile getResourceLBS
+
     match (fromList ["MGS2025.markdown", "contact.markdown"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler

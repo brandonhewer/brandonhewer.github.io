@@ -14,7 +14,7 @@ This course provides an introduction to refinement types in Liquid Haskell, with
 
 The course is structured into four lectures:
 
-1. Introduction to refinement types
+1. Introduction to refinement types ([pdf](/Lecture1.pdf))
 2. Refinement logic, datatypes, and subtyping
 3. Measures, termination, and abstract refinements
 4. Quotient types
