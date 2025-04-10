@@ -16,7 +16,7 @@ The course is structured into four lectures:
 
 1. Introduction to refinement types ([pdf](/pdf/Lecture1.pdf))
 2. Refinement logic, datatypes, and subtyping ([pdf](/pdf/Lecture2.pdf))
-3. Measures, termination, and abstract refinements
+3. Measures, termination, and abstract refinements ([pdf](/pdf/Lecture3.pdf))
 4. Quotient types
 
 ## Course Resources
@@ -28,6 +28,8 @@ Additional course resources will be made available closer to the date.
 ## Exercise Sheets
 
 [Exercise Sheet 1](/pdf/Exercise1.pdf) (Vectors, Matrices, Binary Search Trees)
+
+[Exercise Sheet 2](/pdf/Exercise2.pdf) (Ackermann, De Bruijin, Hutton's Razor)
 
 ## References
 Ming Kawaguchi, Patrick M Rondon, and Ranjit Jhala. 2010. Dsolve: Safety Verification via Liquid Types. In *Proceedings of the International Conference on Computer Aided Verification*.
